@@ -8,27 +8,28 @@
       "properties": {
         "config": {
           "type": "object",
+           "title": "Configuración",
           "properties": {
             "_gtag": {
               "type": "object",
-              "legend": "Google Analytics 4",
+              "legend": "Analítica de datos de Google 4",
               "properties": {
                 "_isEnabled": {
                   "type": "boolean",
                   "default": false,
-                  "title": "Is enabled",
+                  "title": "¿Activar?",
                   "inputType": "Checkbox",
-                  "help": "Enable Google Analytics tracking"
+                  "help": "Habilitar el seguimiento de la analítica de datos de Google"
                 },
                 "_measurementId": {
                   "type": "string",
                   "required": true,
-                  "title": "Measurement ID",
+                  "title": "ID de medición",
                   "inputType": "Text",
                   "validators": [
                     "required"
                   ],
-                  "help": "Enter the measurement ID of the Google Analytics property to track"
+                  "help": "Ingrese el ID de medición de la propiedad de la analítica de datos de Google para rastrear"
                 }
               }
             }

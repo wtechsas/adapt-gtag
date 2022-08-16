@@ -26,9 +26,7 @@
                   "required": true,
                   "title": "ID de medición",
                   "inputType": "Text",
-                  "validators": [
-                    "required"
-                  ],
+                  "validators": [],
                   "help": "Ingrese el ID de medición de la propiedad de la analítica de datos de Google para rastrear"
                 }
               }

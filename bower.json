@@ -1,6 +1,6 @@
 {
   "name": "adapt-gtag",
-  "version": "10.0.7",
+  "version": "10.0.8",
   "framework": ">=5.0.0",
   "displayName": "Analítica de datos de Google 4",
   "extension": "gtag",
